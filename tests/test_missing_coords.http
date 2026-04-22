@@ -1,0 +1,11 @@
+### Missing Coordinates Test
+### Valid structure but empty coordinates to trigger nested validation error
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "MISSING-COORDS-001",
+  "vehicle_coordinates": {},
+  "vehicle_type": "Van",
+  "priority_level": "Standard"
+}

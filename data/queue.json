@@ -1,0 +1,26 @@
+[
+    {
+        "incident_id": "STD001",
+        "vehicle_coordinates": {
+            "lat": 34.0522,
+            "long": -118.2437
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    },
+    {
+        "incident_id": "DOC-TEST-001",
+        "vehicle_coordinates": {
+            "lat": 34.0522,
+            "long": -118.2437
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    }
+]

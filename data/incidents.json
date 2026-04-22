@@ -1,0 +1,146 @@
+[
+    {
+        "vehicle_coordinates": {
+            "lat": 9.05,
+            "long": 38.76
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": "John Doe",
+        "customer_phone": null,
+        "description": null,
+        "incident_id": "60e39a46"
+    },
+    {
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Jane Smith",
+        "customer_phone": null,
+        "description": "Tire blowout on highway",
+        "incident_id": "5609d239"
+    },
+    {
+        "incident_id": "INC001",
+        "vehicle_coordinates": {
+            "lat": 9.05,
+            "long": 38.76
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    },
+    {
+        "incident_id": "HIGH001",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": "Highway hazard - blocked lane"
+    },
+    {
+        "incident_id": "STD001",
+        "vehicle_coordinates": {
+            "lat": 34.0522,
+            "long": -118.2437
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    },
+    {
+        "incident_id": "DOC-TEST-001",
+        "vehicle_coordinates": {
+            "lat": 34.0522,
+            "long": -118.2437
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "Standard",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    },
+    {
+        "incident_id": "TEST-001",
+        "vehicle_coordinates": {
+            "lat": 34.0,
+            "long": -118.0
+        },
+        "vehicle_type": "Passenger Car",
+        "priority_level": "High",
+        "customer_name": null,
+        "customer_phone": null,
+        "description": null
+    },
+    {
+        "incident_id": "HIGHWAY-ALERT-042",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Mike Johnson",
+        "customer_phone": "+1-555-0456",
+        "description": "Tire blowout - blocked lane on highway"
+    },
+    {
+        "incident_id": "HIGHWAY-ALERT-042",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Mike Johnson",
+        "customer_phone": "+1-555-0456",
+        "description": "Tire blowout - blocked lane on highway"
+    },
+    {
+        "incident_id": "HIGHWAY-ALERT-042",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Mike Johnson",
+        "customer_phone": "+1-555-0456",
+        "description": "Tire blowout - blocked lane on highway"
+    },
+    {
+        "incident_id": "HIGHWAY-ALERT-042",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Mike Johnson",
+        "customer_phone": "+1-555-0456",
+        "description": "Tire blowout - blocked lane on highway"
+    },
+    {
+        "incident_id": "HIGHWAY-ALERT-042",
+        "vehicle_coordinates": {
+            "lat": 40.7128,
+            "long": -74.006
+        },
+        "vehicle_type": "Semi-Truck",
+        "priority_level": "High",
+        "customer_name": "Mike Johnson",
+        "customer_phone": "+1-555-0456",
+        "description": "Tire blowout - blocked lane on highway"
+    }
+]

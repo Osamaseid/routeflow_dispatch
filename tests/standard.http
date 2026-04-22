@@ -1,0 +1,17 @@
+### Standard Priority Request - Fleet Management Platform
+### Simulates a standard roadside assistance request from fleet management IoT platform
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "FLEET-2024-001",
+  "vehicle_coordinates": {
+    "lat": 34.0522,
+    "long": -118.2437
+  },
+  "vehicle_type": "Passenger Car",
+  "priority_level": "Standard",
+  "customer_name": "John Smith",
+  "customer_phone": "+1-555-0123",
+  "description": "Vehicle engine won't start"
+}

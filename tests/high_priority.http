@@ -1,0 +1,17 @@
+### High Priority Request - Highway Hazard Alert
+### Simulates a high-priority incident from highway monitoring IoT system
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "HIGHWAY-ALERT-042",
+  "vehicle_coordinates": {
+    "lat": 40.7128,
+    "long": -74.0060
+  },
+  "vehicle_type": "Semi-Truck",
+  "priority_level": "High",
+  "customer_name": "Mike Johnson",
+  "customer_phone": "+1-555-0456",
+  "description": "Tire blowout - blocked lane on highway"
+}

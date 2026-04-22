@@ -1,0 +1,10 @@
+### Malformed Request - Bad Request Test
+### Missing required fields to trigger 400 bad request
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "INC003",
+  "vehicle_type": "SUV",
+  "description": "Missing coordinates and priority_level"
+}

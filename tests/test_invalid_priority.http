@@ -1,0 +1,14 @@
+### Invalid Priority Level Test
+### Simulates invalid priority level to trigger 400 bad request
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "INVALID-PRIO-001",
+  "vehicle_coordinates": {
+    "lat": 29.7604,
+    "long": -95.3698
+  },
+  "vehicle_type": "Passenger Car",
+  "priority_level": "Critical"
+}

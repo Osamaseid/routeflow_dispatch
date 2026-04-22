@@ -1,0 +1,14 @@
+### Invalid Enum Value - Vehicle Type
+### Simulates invalid vehicle type to trigger enum validation error
+POST http://localhost:8000/webhook
+Content-Type: application/json
+
+{
+  "incident_id": "INVALID-VT-001",
+  "vehicle_coordinates": {
+    "lat": 41.8781,
+    "long": -87.6298
+  },
+  "vehicle_type": "Boat",
+  "priority_level": "Standard"
+}
